@@ -1,0 +1,101 @@
+SKU,supplier_note
+SKU0,"Stock levels healthy, lead time steady at 7 days on route Route B."
+SKU1,Carrier Carrier A noted handling issues; customer complaints trending up for SKU SKU1.
+SKU2,Inspection result Pending for SKU SKU2; no corrective action required yet.
+SKU3,Carrier Carrier C noted handling issues; customer complaints trending up for SKU SKU3.
+SKU4,Shipment flagged after QA inspection Fail; defect rate elevated at 3.1%.
+SKU5,Inspection result Fail for SKU SKU5; no corrective action required yet.
+SKU6,Supplier Supplier 3 within tolerance; minor variance in lead time (15 days).
+SKU7,Carrier Carrier B performing near SLA on route Route C; watch stock levels.
+SKU8,Inspection result Pending for SKU SKU8; no corrective action required yet.
+SKU9,Shipment on schedule but defect rate (3.8%) worth monitoring next cycle.
+SKU10,Supplier Supplier 5 consistently on-time via Carrier C; no open issues.
+SKU11,Carrier Carrier A performing near SLA on route Route A; watch stock levels.
+SKU12,Carrier Carrier A performing near SLA on route Route B; watch stock levels.
+SKU13,Inspection result Pending for SKU SKU13; no corrective action required yet.
+SKU14,Carrier Carrier B performing near SLA on route Route B; watch stock levels.
+SKU15,Inspection result Pass for SKU SKU15; no corrective action required yet.
+SKU16,"Stock levels healthy, lead time steady at 5 days on route Route A."
+SKU17,Supplier Supplier 1 within tolerance; minor variance in lead time (17 days).
+SKU18,Supplier Supplier 2 within tolerance; minor variance in lead time (10 days).
+SKU19,Shipment on schedule but defect rate (3.6%) worth monitoring next cycle.
+SKU20,Supplier Supplier 1 within tolerance; minor variance in lead time (12 days).
+SKU21,Supplier Supplier 5 within tolerance; minor variance in lead time (25 days).
+SKU22,Inspection result Fail for SKU SKU22; no corrective action required yet.
+SKU23,Supplier Supplier 5 within tolerance; minor variance in lead time (5 days).
+SKU24,Carrier Carrier C noted handling issues; customer complaints trending up for SKU SKU24.
+SKU25,Inspection result Pending for SKU SKU25; no corrective action required yet.
+SKU26,Supplier Supplier 2 within tolerance; minor variance in lead time (16 days).
+SKU27,Shipment on schedule but defect rate (2.9%) worth monitoring next cycle.
+SKU28,Shipment on schedule but defect rate (0.8%) worth monitoring next cycle.
+SKU29,Carrier Carrier B performing near SLA on route Route B; watch stock levels.
+SKU30,Carrier Carrier B performing near SLA on route Route C; watch stock levels.
+SKU31,Supplier Supplier 3 within tolerance; minor variance in lead time (17 days).
+SKU32,Clean inspection (Pass) for SKU SKU32; defect rate low at 1.9%.
+SKU33,Carrier Carrier C noted handling issues; customer complaints trending up for SKU SKU33.
+SKU34,Carrier Carrier A performing near SLA on route Route B; watch stock levels.
+SKU35,Inspection result Pass for SKU SKU35; no corrective action required yet.
+SKU36,"Recurrent quality escalations from Delhi facility, inspection result: Fail."
+SKU37,Supplier Supplier 3 within tolerance; minor variance in lead time (8 days).
+SKU38,Clean inspection (Pending) for SKU SKU38; defect rate low at 0.6%.
+SKU39,Carrier Carrier A performing near SLA on route Route B; watch stock levels.
+SKU40,Shipment on schedule but defect rate (4.2%) worth monitoring next cycle.
+SKU41,Inspection result Fail for SKU SKU41; no corrective action required yet.
+SKU42,Supplier Supplier 5 reported delays; lead time stretched to 27 days on route Route A.
+SKU43,Shipment on schedule but defect rate (0.4%) worth monitoring next cycle.
+SKU44,Supplier Supplier 2 reported delays; lead time stretched to 19 days on route Route A.
+SKU45,Shipment on schedule but defect rate (3.2%) worth monitoring next cycle.
+SKU46,Inspection result Pending for SKU SKU46; no corrective action required yet.
+SKU47,Inspection result Pending for SKU SKU47; no corrective action required yet.
+SKU48,Supplier Supplier 2 within tolerance; minor variance in lead time (16 days).
+SKU49,Inspection result Pass for SKU SKU49; no corrective action required yet.
+SKU50,"Recurrent quality escalations from Delhi facility, inspection result: Fail."
+SKU51,Clean inspection (Pending) for SKU SKU51; defect rate low at 1.8%.
+SKU52,Inspection result Pending for SKU SKU52; no corrective action required yet.
+SKU53,Carrier Carrier B performing near SLA on route Route B; watch stock levels.
+SKU54,Supplier Supplier 1 within tolerance; minor variance in lead time (22 days).
+SKU55,Carrier Carrier A performing near SLA on route Route B; watch stock levels.
+SKU56,Supplier Supplier 1 within tolerance; minor variance in lead time (23 days).
+SKU57,Supplier Supplier 2 within tolerance; minor variance in lead time (18 days).
+SKU58,Shipment on schedule but defect rate (1.7%) worth monitoring next cycle.
+SKU59,Shipment on schedule but defect rate (0.4%) worth monitoring next cycle.
+SKU60,"Recurrent quality escalations from Mumbai facility, inspection result: Fail."
+SKU61,Shipment flagged after QA inspection Fail; defect rate elevated at 4.4%.
+SKU62,Clean inspection (Pass) for SKU SKU62; defect rate low at 1.9%.
+SKU63,Shipment on schedule but defect rate (3.6%) worth monitoring next cycle.
+SKU64,Carrier Carrier C performing near SLA on route Route C; watch stock levels.
+SKU65,Carrier Carrier C noted handling issues; customer complaints trending up for SKU SKU65.
+SKU66,Shipment flagged after QA inspection Fail; defect rate elevated at 3.4%.
+SKU67,Clean inspection (Pass) for SKU SKU67; defect rate low at 0.1%.
+SKU68,Carrier Carrier B performing near SLA on route Route A; watch stock levels.
+SKU69,"Stock levels healthy, lead time steady at 1 days on route Route A."
+SKU70,Shipment on schedule but defect rate (1.8%) worth monitoring next cycle.
+SKU71,Supplier Supplier 2 within tolerance; minor variance in lead time (2 days).
+SKU72,"Recurrent quality escalations from Bangalore facility, inspection result: Pending."
+SKU73,Shipment flagged after QA inspection Fail; defect rate elevated at 4.6%.
+SKU74,Shipment on schedule but defect rate (0.4%) worth monitoring next cycle.
+SKU75,Supplier Supplier 1 within tolerance; minor variance in lead time (20 days).
+SKU76,Supplier Supplier 2 within tolerance; minor variance in lead time (1 days).
+SKU77,Carrier Carrier B performing near SLA on route Route B; watch stock levels.
+SKU78,Carrier Carrier B performing near SLA on route Route C; watch stock levels.
+SKU79,Supplier Supplier 3 within tolerance; minor variance in lead time (25 days).
+SKU80,Carrier Carrier C performing near SLA on route Route B; watch stock levels.
+SKU81,Supplier Supplier 3 within tolerance; minor variance in lead time (6 days).
+SKU82,Shipment on schedule but defect rate (4.1%) worth monitoring next cycle.
+SKU83,Supplier Supplier 1 within tolerance; minor variance in lead time (24 days).
+SKU84,Supplier Supplier 5 within tolerance; minor variance in lead time (26 days).
+SKU85,Inspection result Fail for SKU SKU85; no corrective action required yet.
+SKU86,Supplier Supplier 1 within tolerance; minor variance in lead time (14 days).
+SKU87,Supplier Supplier 3 reported delays; lead time stretched to 7 days on route Route B.
+SKU88,Inspection result Pending for SKU SKU88; no corrective action required yet.
+SKU89,Carrier Carrier B performing near SLA on route Route B; watch stock levels.
+SKU90,Inspection result Pass for SKU SKU90; no corrective action required yet.
+SKU91,Shipment on schedule but defect rate (0.6%) worth monitoring next cycle.
+SKU92,"Stock levels healthy, lead time steady at 25 days on route Route B."
+SKU93,Shipment on schedule but defect rate (4.2%) worth monitoring next cycle.
+SKU94,Carrier Carrier B performing near SLA on route Route B; watch stock levels.
+SKU95,Inspection result Pending for SKU SKU95; no corrective action required yet.
+SKU96,Inspection result Pending for SKU SKU96; no corrective action required yet.
+SKU97,"Recurrent quality escalations from Mumbai facility, inspection result: Fail."
+SKU98,Shipment on schedule but defect rate (2.9%) worth monitoring next cycle.
+SKU99,Inspection result Fail for SKU SKU99; no corrective action required yet.
