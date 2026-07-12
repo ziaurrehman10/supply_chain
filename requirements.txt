@@ -7,7 +7,3 @@ matplotlib>=3.8
 pillow>=10.3
 shap>=0.45
 reportlab>=4.2
-langchain>=0.1.0
-langgraph>=0.0.1
-langchain-anthropic>=0.0.10
-anthropic>=0.7.0

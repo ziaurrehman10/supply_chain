@@ -203,7 +203,9 @@ def generate_images(df: pd.DataFrame, out_dir=IMAGES_DIR):
     for _, row in df.iterrows():
         p = os.path.join(out_dir, f"{row['SKU']}.png")
         generate_gauge_image(row["SKU"], row["Risk Score"], row["Inspection results"], p)
-        paths[row["SKU"]] = p
+        # Store relative path with forward slashes for cross-platform compatibility
+        rel_path = f"synthetic_assets/images/{row['SKU']}.png"
+        paths[row["SKU"]] = rel_path
     return paths
 
 

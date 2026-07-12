@@ -80,8 +80,31 @@ def score_all(_df, _ts, _ann, _lstm, _cnn, _scaler, feature_cols, ts_scaler):
     series_norm = (series - ts_scaler["min"]) / (ts_scaler["max"] - ts_scaler["min"] + 1e-6)
     lstm_out = _lstm.predict(series_norm[..., np.newaxis], verbose=0).flatten()
 
+    # Handle image paths - resolve relative paths from BASE_DIR
+    image_paths = []
+    for img_path in _df["image_path"]:
+        if isinstance(img_path, str):
+            # Normalize forward slashes to OS-specific separator
+            img_path = img_path.replace("/", os.sep).replace("\\", os.sep)
+            
+            # If it's a relative path, resolve from BASE_DIR
+            if not os.path.isabs(img_path):
+                resolved_path = os.path.join(BASE_DIR, img_path)
+            else:
+                resolved_path = img_path
+            
+            # If still doesn't exist, try different resolution strategies
+            if not os.path.exists(resolved_path):
+                # Try just the filename in synthetic_assets/images
+                filename = os.path.basename(img_path)
+                resolved_path = os.path.join(BASE_DIR, "synthetic_assets", "images", filename)
+            
+            image_paths.append(resolved_path)
+        else:
+            image_paths.append(img_path)
+    
     imgs = np.stack([
-        np.array(Image.open(p).convert("RGB").resize(IMG_SIZE)) for p in _df["image_path"]
+        np.array(Image.open(p).convert("RGB").resize(IMG_SIZE)) for p in image_paths
     ]).astype("float32")
     cnn_probs = _cnn.predict(imgs, verbose=0)
 
@@ -96,6 +119,7 @@ def score_all(_df, _ts, _ann, _lstm, _cnn, _scaler, feature_cols, ts_scaler):
     out["LSTM Confidence"] = (ens["lstm_confidence"] * 100).round(1)
     out["CNN Confidence"] = (ens["cnn_confidence"] * 100).round(1)
     out["_shap_idx"] = range(len(out))
+    out["image_path"] = image_paths  # Update with resolved paths
     return out, X_scaled, shap_vals, feature_cols, is_real_shap
 
 
