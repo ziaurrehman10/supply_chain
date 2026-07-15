@@ -62,7 +62,7 @@ python src/train.py           # trains ANN, LSTM, CNN and saves them
 streamlit run app.py
 ```
 
-Then open the URL Streamlit prints (usually http://localhost:8501).
+Live link: https://supplychainrisk.streamlit.app/
 
 ## 5. Project structure
 
