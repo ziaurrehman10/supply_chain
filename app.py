@@ -8,7 +8,13 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "src"))
+APP_DIR = os.path.dirname(os.path.abspath(__file__))
+SRC_DIR = os.path.join(APP_DIR, "src")
+
+if APP_DIR not in sys.path:
+    sys.path.insert(0, APP_DIR)
+if SRC_DIR not in sys.path:
+    sys.path.insert(0, SRC_DIR)
 
 from data_pipeline import build_all, ENRICHED_CSV, TIMESERIES_JSON, BASE_DIR  # noqa
 from models import ensemble_predict, RISK_CLASSES, INSPECTION_CLASSES, IMG_SIZE  # noqa
@@ -307,7 +313,6 @@ elif page == "Reports":
         "rejected": int(merged["human_decision"].str.startswith("Reject").sum()),
         "pending_review": int((merged["human_decision"] == "Pending").sum()),
     }
-    st.json(kpis)
 
     if st.button("Generate PDF report"):
         counts = merged["AI Risk Label"].value_counts().reindex(RISK_CLASSES).fillna(0)
